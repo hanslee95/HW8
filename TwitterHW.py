@@ -29,7 +29,7 @@ except:
 
 ## [PART 1]
 
-# Here, define a function called get_tweets that searches for all tweets referring to or by "umsi"
+# Define a function called get_tweets that searches for all tweets referring to or by "umsi"
 # Your function must cache data it retrieves and rely on a cache file!
 # using get-tweets fucntion
 
