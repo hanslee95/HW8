@@ -96,7 +96,7 @@ for t in all_res:
 
 # Select the author of all of the tweets (the full rows/tuples of information) that have been retweeted MORE
 # than 2 times, and fetch them into the variable more_than_2_rts.
-# Print the results
+# Print the result
 cur.execute('SELECT author FROM Tweets WHERE retweets > 2')
 more_than_2_rts = cur.fetchall()
 print("more_than_2_rts - %s " % set(more_than_2_rts))
